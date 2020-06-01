@@ -8,7 +8,7 @@ const app = express();
 app.use(helmet());
 app.use(compression());
 
-const HOST = process.env.HOST || 'localhost';
+const HOST = 'to-delete-lwc.herokuapp.com' || 'localhost';
 const PORT = process.env.PORT || 3001;
 const DIST_DIR = './dist';
 
