@@ -1,5 +1,5 @@
 // Simple Express server setup to serve for local testing/dev API server
-const compression = require('compression');
+/*const compression = require('compression');
 const helmet = require('helmet');
 const express = require('express');
 
@@ -73,3 +73,4 @@ app.listen(PORT, () =>
         `✅  API Server started: http://${HOST}:${PORT}/api/v1/endpoint`
     )
 );
+*/
